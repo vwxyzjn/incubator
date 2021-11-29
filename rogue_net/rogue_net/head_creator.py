@@ -2,8 +2,8 @@ from typing import Dict
 from torch import nn
 import torch
 import numpy as np
-from entity_gym.environment import ActionSpace, CategoricalActionSpace
 from typing import Dict
+from entity_gym.environment import ActionSpace, CategoricalActionSpace
 
 
 def layer_init(
